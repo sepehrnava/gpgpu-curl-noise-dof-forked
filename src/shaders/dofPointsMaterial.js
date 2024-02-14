@@ -24,7 +24,7 @@ class DofPointsMaterial extends THREE.ShaderMaterial {
         if (dot(cxy, cxy) > 1.0) discard;
     
         // Define two colors for the gradient
-        vec3 color1 = vec3(255.0 / 255.0, 157.0 / 255.0, 184.0 / 255.0);
+        vec3 color1 = vec3(255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0);
         vec3 color2 = vec3(255.0, 0.0, 1.0);
     
         // Interpolate between the two colors based on distance
